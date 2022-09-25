@@ -1,0 +1,120 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #dcd7c9;
+}
+
+.holder {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h2 {
+  color: white;
+  font-weight: 400;
+}
+
+header {
+  background-color: #3f4e4f;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  color: #637e91;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+header img {
+  border-radius: 50%;
+  height: auto;
+  max-width: 10%;
+}
+
+nav {
+  background-color: #2c3639;
+  margin-bottom: 5%;
+}
+nav ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+}
+
+nav ul li {
+  flex-grow: 1;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo {
+  background-color: #21292b;
+}
+.home {
+  width: 50%;
+}
+
+#homeImage {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.welcome {
+  width: 75%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.comments {
+  width: 25%;
+  overflow: hidden;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment {
+  background-color: #a27b5c;
+  padding: 16px;
+}
+
+.comment .quote {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  display: block;
+}
+
+.comment .author {
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: 12px 0;
+}
+
+footer {
+  background-color: #ccc;
+  /*Clear css property:  sets whether an element must be moved below (cleared) floating elements that precede it. It puts the element at the end of (below) all the other floating elements */
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
